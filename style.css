@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.header{
+    position: relative;
+    min-height: 170px;
+    padding-left: 180px;
+}
+
+.profileimg{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid #0077b6;
+    object-fit: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.headertext h1{
+    color: #0077b6;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+.headertext h3{
+    color: #555;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+
+.headertext p{
+    margin-bottom: 5px;
+    color: #333;
+}
+section{
+    margin-top: 30px;
+}
+
+section h2{
+    color: #0077b6;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid #ccc;
+}
+
+th{
+    background: #0077b6;
+    color: white;
+}
+
+th, td{
+    padding: 12px;
+    text-align: left;
+}
+
+
+.skills{
+    margin-left: 20px;
+}
+
+.skills div{
+    margin-bottom: 20px;
+}
+
+ul, ol{
+    margin-left: 20px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+hr{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+     margin-bottom: 8px;
+    color: #333 ;
+
+}
+@media(max-width: 768px){
+
+    .skills{
+        margin-left: 10px;
+    }
+
+}
